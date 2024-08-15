@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.menu{
+	width: 36%;
+	float: right;
+	list-style: none;
+	padding: 10px 35px;
+
+}
+.menu li{
+	text-decoration: none;
+	border: 2px solid green;
+	border-radius: 5px;
+	font-size: 12px;
+	color: #fff;
+	display: inline-block;
+	width: 100px;
+	line-height: 50px;
+	text-align: center;
+	color: green;
+	padding:1px 1px 1px 4px;
+}
+.menu li:hover{
+
+		border-color: green;
+	background-color: silver;
+	transition: .9s;
+	color: #262626;
+}
+.menu li:hover a{
+	color: black;
+}
+.menu li a{
+	text-decoration: none;
+	font-family: baloo;
+	color:#fff;
+	text-transform: uppercase;
+	
+}
+.section{
+	position: absolute;
+	width: 100%;
+	min-height: 100vh;
+	background-color: #ddd;
+	background-image: url(../images/albay.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.container{
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 80%;
+	height: auto;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+}
+.content-section .content h3{
+	margin-top: 20px;
+	color: #5d5d5d;
+	font-size: 19px;
+}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.content-section  .button{
+	margin-top: 30px;
+}
+.content-section  .button a{
+	text-decoration: none;
+	border: 2px solid green;
+	border-radius: 5px;
+	font-size: 18px;
+	color: #fff;
+	display: inline-block;
+	width: 200px;
+	line-height: 50px;
+	text-align: center;
+	color: #1d5c2d;
+}
+.content-section .button a:hover{
+	border-color: #0e6d40;
+	background-color: rgb(228, 222, 222);
+	transition: .9s;
+	color: #292929;
+}
+.content-section .social{
+	margin-top: 40px;
+}
+.content-section .social i{
+	color: #a52a2a;
+	font-size: 30px;
+	padding: 0px 10px;
+}
+.content-section .social i:hover{
+	color: green;
+}
+.slicknav_menu{
+	display: none;
+}
+
+@media screen and (max-width: 768px){
+	.slicknav_menu{
+		display: block;
+		width: 40%;
+		float: right;
+		background: transparent;
+	}
+	.slicknav_nav a{
+		background-color:transparent;
+		border-radius: 5px;
+		border: 1px solid #a52a2a;
+		color: #a52a2a;
+	}
+	.menu{
+		display: none;
+	}
+	.container{
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding-top: 50px;
+	}
+	.content-section{
+	float: none;
+	width: 100%;
+	display: block;
+	margin: auto;
+	}
+	.image-section{
+	float: none;
+	width: 100%;
+	padding-top: 20px;
+	}
+	.image-section img{
+	width: 80%;
+	height: auto;
+	display: block;
+	margin: auto;
+	}
+	.content-section .title{
+			top: 55%;
+	text-align: center;
+	font-size: 19px;
+	}
+	.content-section .button{
+	text-align: center;
+	}
+	.content-section  .button a{
+	padding: 9px 30px;
+	}
+	.content-section .social{
+	text-align: center;
+	}
+}

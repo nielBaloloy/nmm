@@ -1,0 +1,163 @@
+.banner-area {
+	background-image: url(../images/mayon.jpg) ;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	width: 33%;
+	float: right;
+	list-style: none;
+	padding: 10px 35px;
+
+}
+.menu li{
+	text-decoration: none;
+	border: 2px solid green;
+	border-radius: 5px;
+	font-size: 12px;
+	color: #fff;
+	display: inline-block;
+	width: 100px;
+	line-height: 50px;
+	text-align: center;
+	color: green;
+	
+}
+.menu li:hover{
+
+	border-color: rgb(21, 182, 120);
+	background-color: rgb(246, 246, 246);
+	transition: .9s;
+	color: #262626;
+}
+.menu li:hover a{
+	color: black;
+}
+.menu li a{
+	text-decoration: none;
+	font-family: baloo;
+	color:#fff;
+	text-transform: uppercase;
+	
+}
+img.lg{
+	padding: 20px 20px;
+	width: 10%;
+	height: 10%;
+	float: left;
+}
+.banner-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	text-align: center;
+}
+.banner-text h2{
+	font-family: baloo;
+	font-size: 55px;
+	margin: 0;
+	color: green;
+	text-shadow: 2px 2px 4px #000000;
+}
+.banner-text h1{
+	font-family: big john;
+	margin: 0;
+	font-size: 30px;
+	color: #039c78;
+	text-shadow: 1px 1px 2px silver;
+}
+.banner-text p{
+	font-size: 22px;
+	margin: 0;
+	font-family: poppins;
+	text-shadow: 1px 1px black;
+}
+.banner-text a{
+	text-decoration: none;
+	border: 2px solid green;
+	border-radius: 25px;
+	font-size: 17px;
+	padding: 10px 35px;
+	color: #fff;
+	display: inline-block;
+	margin-top: 5px;
+	
+}
+.banner-text a:hover{
+	border-color: green;
+	background-color: silver;
+	transition: .9s;
+	color: #262626;
+}
+.slicknav_menu{
+	display: none;
+}
+
+
+@media all and (max-width: 769px){
+	.slicknav_menu{
+		display: block;
+		width: 40%;
+		float: right;
+		background: transparent;
+	}
+	.slicknav_nav a{
+		background-color:transparent;
+		border-radius: 5px;
+		border: 1px solid green;
+		color: green;
+	}
+	.menu{
+		display: none;
+	}
+	.sticknav_btn{
+		margin: 10px 5px 6px;
+		text-decoration: none;
+		border-radius: 5px;
+		background-color: silver;
+		z-index: 1;
+	}
+	.slicknav_menu .slicknav_menutxt{
+		color:white;
+		text-shadow: none;
+	}
+	.slicknav_menu .slicknav_icon-bar{
+		background-color: green;
+		box-shadow: none; 
+	}
+	.banner-text{
+		top: 55%;
+	}
+	header{
+		padding: 5px 10px;
+	}
+	.banner-text h2{
+		font-size: 30px;
+	}
+	.banner-text h1{
+		font-size: 20px;
+	}
+	.banner-text p{
+		font-size: 15px;
+	}
+	.banner-text a{
+		font-size: 11px;
+		padding: 10px 5px;
+	}
+	img.lg{
+
+		width: 80px;
+		height: 40px;
+		float: left;
+	}
+}
+
